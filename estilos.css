@@ -1,0 +1,77 @@
+*{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.text-center{
+  text-decoration-style: solid;
+  text-transform: uppercase;
+}
+
+body{
+  background: rgb(175,110,21);
+  background: linear-gradient(90deg, rgb(153, 97, 18) 0%, rgba(221,139,27,1) 35%, rgb(82, 50, 9) 100%);
+}
+
+.item {
+  border: 2px solid #000;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.item-title {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+}
+
+.item-image {
+  height: 300px;
+  width: 100%;
+}
+
+.item-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0px 15px;
+}
+
+.item-button{
+  background-color: rgb(156, 75, 21);
+  border-color: rgb(156, 75, 21);
+}
+
+.item-button:hover{
+  background-color: rgb(119, 58, 17);
+  border-color: rgb(119, 58, 17);
+}
+
+.item-details > .item-price {
+  margin: 0;
+}
+
+
+.shopping-cart-items {
+  padding: 20px 0px;
+}
+
+.shopping-cart-header {
+  border-bottom: 1px solid #ccc;
+}
+
+.shopping-cart-image {
+  max-width: 80px;
+  border-radius: 20px;
+}
+
+.shopping-cart-quantity-input {
+  max-width: 45px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #eee;
+  padding: 5px;
+}
+
+.shopping-cart-total {
+  min-height: 96px;
+}
